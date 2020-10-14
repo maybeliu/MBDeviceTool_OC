@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27598A3B2536A5BB00BA42AC /* MBDeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 27598A3A2536A5BB00BA42AC /* MBDeviceInfo.m */; };
 		27E0808E2535D3CE00FE28DC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 27E0808D2535D3CE00FE28DC /* AppDelegate.m */; };
 		27E080912535D3CE00FE28DC /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 27E080902535D3CE00FE28DC /* SceneDelegate.m */; };
 		27E080942535D3CE00FE28DC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27E080932535D3CE00FE28DC /* ViewController.m */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		27598A392536A5BB00BA42AC /* MBDeviceInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBDeviceInfo.h; sourceTree = "<group>"; };
+		27598A3A2536A5BB00BA42AC /* MBDeviceInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBDeviceInfo.m; sourceTree = "<group>"; };
 		27E080892535D3CE00FE28DC /* MBDeviceTool_OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MBDeviceTool_OC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27E0808C2535D3CE00FE28DC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		27E0808D2535D3CE00FE28DC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -42,9 +45,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		27598A332536A53800BA42AC /* MBDeviceToolSpec */ = {
+			isa = PBXGroup;
+			children = (
+				27598A392536A5BB00BA42AC /* MBDeviceInfo.h */,
+				27598A3A2536A5BB00BA42AC /* MBDeviceInfo.m */,
+			);
+			name = MBDeviceToolSpec;
+			path = ../MBDeviceToolSpec;
+			sourceTree = "<group>";
+		};
 		27E080802535D3CE00FE28DC = {
 			isa = PBXGroup;
 			children = (
+				27598A332536A53800BA42AC /* MBDeviceToolSpec */,
 				27E0808B2535D3CE00FE28DC /* MBDeviceTool_OC */,
 				27E0808A2535D3CE00FE28DC /* Products */,
 			);
@@ -146,6 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				27E080942535D3CE00FE28DC /* ViewController.m in Sources */,
+				27598A3B2536A5BB00BA42AC /* MBDeviceInfo.m in Sources */,
 				27E0808E2535D3CE00FE28DC /* AppDelegate.m in Sources */,
 				27E0809F2535D3CF00FE28DC /* main.m in Sources */,
 				27E080912535D3CE00FE28DC /* SceneDelegate.m in Sources */,
