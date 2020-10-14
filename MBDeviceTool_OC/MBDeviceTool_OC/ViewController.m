@@ -29,6 +29,20 @@
     NSString *bundleID = deviceInfo.appBundleID;
     NSString *localizedModel = deviceInfo.localizedModel;
     NSString *appBuiltVersion = deviceInfo.appBuiltVersion;
+    
+    NSLog(@"%@",systemType);
+    NSLog(@"%@",userName);
+    NSLog(@"%@",systemVersion);
+    NSLog(@"%@",deviceModel);
+    NSLog(@"%@",deviceUUID);
+    NSLog(@"%@",userPhoneName);
+    NSLog(@"%@",deviceName);
+    NSLog(@"%@",appVersion);
+    NSLog(@"%@",getPlatformString);
+    NSLog(@"%@",bundleID);
+    NSLog(@"%@",localizedModel);
+    NSLog(@"%@",appBuiltVersion);
+
     // Do any additional setup after loading the view.
 }
 
