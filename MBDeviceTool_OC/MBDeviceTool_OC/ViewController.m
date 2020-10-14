@@ -1,8 +1,8 @@
 //
 //  ViewController.m
-//  pod
+//  MBDeviceTool_OC
 //
-//  Created by Maybe on 13/10/2020.
+//  Created by Maybe on 2020/10/13.
 //
 
 #import "ViewController.h"

@@ -7,35 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BB7504262535F67A00CF95EE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BB7504252535F67A00CF95EE /* AppDelegate.m */; };
-		BB7504292535F67A00CF95EE /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BB7504282535F67A00CF95EE /* SceneDelegate.m */; };
-		BB75042C2535F67A00CF95EE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB75042B2535F67A00CF95EE /* ViewController.m */; };
-		BB75042F2535F67A00CF95EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB75042D2535F67A00CF95EE /* Main.storyboard */; };
-		BB7504312535F67E00CF95EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB7504302535F67E00CF95EE /* Assets.xcassets */; };
-		BB7504342535F67E00CF95EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB7504322535F67E00CF95EE /* LaunchScreen.storyboard */; };
-		BB7504372535F67E00CF95EE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BB7504362535F67E00CF95EE /* main.m */; };
-		BB7504462535F8CB00CF95EE /* MBDeviceTool.m in Sources */ = {isa = PBXBuildFile; fileRef = BB7504452535F8CB00CF95EE /* MBDeviceTool.m */; };
+		27E0808E2535D3CE00FE28DC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 27E0808D2535D3CE00FE28DC /* AppDelegate.m */; };
+		27E080912535D3CE00FE28DC /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 27E080902535D3CE00FE28DC /* SceneDelegate.m */; };
+		27E080942535D3CE00FE28DC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27E080932535D3CE00FE28DC /* ViewController.m */; };
+		27E080972535D3CE00FE28DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27E080952535D3CE00FE28DC /* Main.storyboard */; };
+		27E080992535D3CF00FE28DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27E080982535D3CF00FE28DC /* Assets.xcassets */; };
+		27E0809C2535D3CF00FE28DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27E0809A2535D3CF00FE28DC /* LaunchScreen.storyboard */; };
+		27E0809F2535D3CF00FE28DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 27E0809E2535D3CF00FE28DC /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		BB7504212535F67A00CF95EE /* pod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pod.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		BB7504242535F67A00CF95EE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		BB7504252535F67A00CF95EE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		BB7504272535F67A00CF95EE /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		BB7504282535F67A00CF95EE /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		BB75042A2535F67A00CF95EE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		BB75042B2535F67A00CF95EE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		BB75042E2535F67A00CF95EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		BB7504302535F67E00CF95EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		BB7504332535F67E00CF95EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		BB7504352535F67E00CF95EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BB7504362535F67E00CF95EE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		BB7504442535F8CB00CF95EE /* MBDeviceTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBDeviceTool.h; path = ../../MBDeviceToolSpec/MBDeviceTool.h; sourceTree = "<group>"; };
-		BB7504452535F8CB00CF95EE /* MBDeviceTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBDeviceTool.m; path = ../../MBDeviceToolSpec/MBDeviceTool.m; sourceTree = "<group>"; };
+		27E080892535D3CE00FE28DC /* MBDeviceTool_OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MBDeviceTool_OC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		27E0808C2535D3CE00FE28DC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		27E0808D2535D3CE00FE28DC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		27E0808F2535D3CE00FE28DC /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		27E080902535D3CE00FE28DC /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		27E080922535D3CE00FE28DC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		27E080932535D3CE00FE28DC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		27E080962535D3CE00FE28DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		27E080982535D3CF00FE28DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		27E0809B2535D3CF00FE28DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		27E0809D2535D3CF00FE28DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27E0809E2535D3CF00FE28DC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		BB75041E2535F67A00CF95EE /* Frameworks */ = {
+		27E080862535D3CE00FE28DC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -45,84 +42,74 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		BB7504182535F67A00CF95EE = {
+		27E080802535D3CE00FE28DC = {
 			isa = PBXGroup;
 			children = (
-				BB75043E2535F79800CF95EE /* MBDeviceToolSpec */,
-				BB7504232535F67A00CF95EE /* pod */,
-				BB7504222535F67A00CF95EE /* Products */,
+				27E0808B2535D3CE00FE28DC /* MBDeviceTool_OC */,
+				27E0808A2535D3CE00FE28DC /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		BB7504222535F67A00CF95EE /* Products */ = {
+		27E0808A2535D3CE00FE28DC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BB7504212535F67A00CF95EE /* pod.app */,
+				27E080892535D3CE00FE28DC /* MBDeviceTool_OC.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BB7504232535F67A00CF95EE /* pod */ = {
+		27E0808B2535D3CE00FE28DC /* MBDeviceTool_OC */ = {
 			isa = PBXGroup;
 			children = (
-				BB7504242535F67A00CF95EE /* AppDelegate.h */,
-				BB7504252535F67A00CF95EE /* AppDelegate.m */,
-				BB7504272535F67A00CF95EE /* SceneDelegate.h */,
-				BB7504282535F67A00CF95EE /* SceneDelegate.m */,
-				BB75042A2535F67A00CF95EE /* ViewController.h */,
-				BB75042B2535F67A00CF95EE /* ViewController.m */,
-				BB75042D2535F67A00CF95EE /* Main.storyboard */,
-				BB7504302535F67E00CF95EE /* Assets.xcassets */,
-				BB7504322535F67E00CF95EE /* LaunchScreen.storyboard */,
-				BB7504352535F67E00CF95EE /* Info.plist */,
-				BB7504362535F67E00CF95EE /* main.m */,
+				27E0808C2535D3CE00FE28DC /* AppDelegate.h */,
+				27E0808D2535D3CE00FE28DC /* AppDelegate.m */,
+				27E0808F2535D3CE00FE28DC /* SceneDelegate.h */,
+				27E080902535D3CE00FE28DC /* SceneDelegate.m */,
+				27E080922535D3CE00FE28DC /* ViewController.h */,
+				27E080932535D3CE00FE28DC /* ViewController.m */,
+				27E080952535D3CE00FE28DC /* Main.storyboard */,
+				27E080982535D3CF00FE28DC /* Assets.xcassets */,
+				27E0809A2535D3CF00FE28DC /* LaunchScreen.storyboard */,
+				27E0809D2535D3CF00FE28DC /* Info.plist */,
+				27E0809E2535D3CF00FE28DC /* main.m */,
 			);
-			path = pod;
-			sourceTree = "<group>";
-		};
-		BB75043E2535F79800CF95EE /* MBDeviceToolSpec */ = {
-			isa = PBXGroup;
-			children = (
-				BB7504442535F8CB00CF95EE /* MBDeviceTool.h */,
-				BB7504452535F8CB00CF95EE /* MBDeviceTool.m */,
-			);
-			path = MBDeviceToolSpec;
+			path = MBDeviceTool_OC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BB7504202535F67A00CF95EE /* pod */ = {
+		27E080882535D3CE00FE28DC /* MBDeviceTool_OC */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BB75043A2535F67E00CF95EE /* Build configuration list for PBXNativeTarget "pod" */;
+			buildConfigurationList = 27E080A22535D3CF00FE28DC /* Build configuration list for PBXNativeTarget "MBDeviceTool_OC" */;
 			buildPhases = (
-				BB75041D2535F67A00CF95EE /* Sources */,
-				BB75041E2535F67A00CF95EE /* Frameworks */,
-				BB75041F2535F67A00CF95EE /* Resources */,
+				27E080852535D3CE00FE28DC /* Sources */,
+				27E080862535D3CE00FE28DC /* Frameworks */,
+				27E080872535D3CE00FE28DC /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = pod;
-			productName = pod;
-			productReference = BB7504212535F67A00CF95EE /* pod.app */;
+			name = MBDeviceTool_OC;
+			productName = MBDeviceTool_OC;
+			productReference = 27E080892535D3CE00FE28DC /* MBDeviceTool_OC.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		BB7504192535F67A00CF95EE /* Project object */ = {
+		27E080812535D3CE00FE28DC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1200;
 				TargetAttributes = {
-					BB7504202535F67A00CF95EE = {
-						CreatedOnToolsVersion = 12.0.1;
+					27E080882535D3CE00FE28DC = {
+						CreatedOnToolsVersion = 12.0;
 					};
 				};
 			};
-			buildConfigurationList = BB75041C2535F67A00CF95EE /* Build configuration list for PBXProject "pod" */;
+			buildConfigurationList = 27E080842535D3CE00FE28DC /* Build configuration list for PBXProject "MBDeviceTool_OC" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -130,57 +117,56 @@
 				en,
 				Base,
 			);
-			mainGroup = BB7504182535F67A00CF95EE;
-			productRefGroup = BB7504222535F67A00CF95EE /* Products */;
+			mainGroup = 27E080802535D3CE00FE28DC;
+			productRefGroup = 27E0808A2535D3CE00FE28DC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BB7504202535F67A00CF95EE /* pod */,
+				27E080882535D3CE00FE28DC /* MBDeviceTool_OC */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		BB75041F2535F67A00CF95EE /* Resources */ = {
+		27E080872535D3CE00FE28DC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB7504342535F67E00CF95EE /* LaunchScreen.storyboard in Resources */,
-				BB7504312535F67E00CF95EE /* Assets.xcassets in Resources */,
-				BB75042F2535F67A00CF95EE /* Main.storyboard in Resources */,
+				27E0809C2535D3CF00FE28DC /* LaunchScreen.storyboard in Resources */,
+				27E080992535D3CF00FE28DC /* Assets.xcassets in Resources */,
+				27E080972535D3CE00FE28DC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		BB75041D2535F67A00CF95EE /* Sources */ = {
+		27E080852535D3CE00FE28DC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB75042C2535F67A00CF95EE /* ViewController.m in Sources */,
-				BB7504462535F8CB00CF95EE /* MBDeviceTool.m in Sources */,
-				BB7504262535F67A00CF95EE /* AppDelegate.m in Sources */,
-				BB7504372535F67E00CF95EE /* main.m in Sources */,
-				BB7504292535F67A00CF95EE /* SceneDelegate.m in Sources */,
+				27E080942535D3CE00FE28DC /* ViewController.m in Sources */,
+				27E0808E2535D3CE00FE28DC /* AppDelegate.m in Sources */,
+				27E0809F2535D3CF00FE28DC /* main.m in Sources */,
+				27E080912535D3CE00FE28DC /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		BB75042D2535F67A00CF95EE /* Main.storyboard */ = {
+		27E080952535D3CE00FE28DC /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				BB75042E2535F67A00CF95EE /* Base */,
+				27E080962535D3CE00FE28DC /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		BB7504322535F67E00CF95EE /* LaunchScreen.storyboard */ = {
+		27E0809A2535D3CF00FE28DC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				BB7504332535F67E00CF95EE /* Base */,
+				27E0809B2535D3CF00FE28DC /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -188,7 +174,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		BB7504382535F67E00CF95EE /* Debug */ = {
+		27E080A02535D3CF00FE28DC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -247,7 +233,7 @@
 			};
 			name = Debug;
 		};
-		BB7504392535F67E00CF95EE /* Release */ = {
+		27E080A12535D3CF00FE28DC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -300,39 +286,37 @@
 			};
 			name = Release;
 		};
-		BB75043B2535F67E00CF95EE /* Debug */ = {
+		27E080A32535D3CF00FE28DC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 423962F5J2;
-				INFOPLIST_FILE = pod/Info.plist;
+				INFOPLIST_FILE = MBDeviceTool_OC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.maybe.pod;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Maybe.deviceTool;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		BB75043C2535F67E00CF95EE /* Release */ = {
+		27E080A42535D3CF00FE28DC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 423962F5J2;
-				INFOPLIST_FILE = pod/Info.plist;
+				INFOPLIST_FILE = MBDeviceTool_OC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.maybe.pod;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Maybe.deviceTool;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -341,25 +325,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BB75041C2535F67A00CF95EE /* Build configuration list for PBXProject "pod" */ = {
+		27E080842535D3CE00FE28DC /* Build configuration list for PBXProject "MBDeviceTool_OC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BB7504382535F67E00CF95EE /* Debug */,
-				BB7504392535F67E00CF95EE /* Release */,
+				27E080A02535D3CF00FE28DC /* Debug */,
+				27E080A12535D3CF00FE28DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BB75043A2535F67E00CF95EE /* Build configuration list for PBXNativeTarget "pod" */ = {
+		27E080A22535D3CF00FE28DC /* Build configuration list for PBXNativeTarget "MBDeviceTool_OC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BB75043B2535F67E00CF95EE /* Debug */,
-				BB75043C2535F67E00CF95EE /* Release */,
+				27E080A32535D3CF00FE28DC /* Debug */,
+				27E080A42535D3CF00FE28DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = BB7504192535F67A00CF95EE /* Project object */;
+	rootObject = 27E080812535D3CE00FE28DC /* Project object */;
 }
