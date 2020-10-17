@@ -1,10 +1,3 @@
-//
-//  MBDeviceInfo.h
-//  XingDaoTechnology
-//
-//  Created by Maybe on 2020/10/13.
-//  Copyright © 2020 xingdaoTechnology. All rights reserved.
-//
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
