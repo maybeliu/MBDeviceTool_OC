@@ -103,6 +103,12 @@
     if ([deviceString isEqualToString:@"iPhone12,5"])   return @"iPhone 11 Pro Max";
     if ([deviceString isEqualToString:@"iPhone12,8"])   return @"iPhone SE (2nd generation)";
 
+    if ([deviceString isEqualToString:@"iPhone13,1"])   return @"iPhone 12 mini";
+    if ([deviceString isEqualToString:@"iPhone13,2"])   return @"iPhone 12";
+    if ([deviceString isEqualToString:@"iPhone13,3"])   return @"iPhone 12 Pro";
+    if ([deviceString isEqualToString:@"iPhone13,4"])   return @"iPhone 12 Pro Max";
+    
+    
     //iPod
     if ([deviceString isEqualToString:@"iPod1,1"])      return @"iPod Touch 1G";
     if ([deviceString isEqualToString:@"iPod2,1"])      return @"iPod Touch 2G";
